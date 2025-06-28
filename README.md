@@ -1,4 +1,4 @@
-🚀 **FilmFinderX: Smart Semantic Search App**
+## 🚀FilmFinderX: Smart Semantic Search App 
 This project introduces a **semantic movie search engine** that combines the power of **Elasticsearch** and **Sentence Transformers** to deliver meaningful movie recommendations based on context rather than keyword matching.
 
 ## 🚀 Features
