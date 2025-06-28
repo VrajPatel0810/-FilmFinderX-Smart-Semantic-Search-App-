@@ -39,7 +39,7 @@ This project introduces a **semantic movie search engine** that combines the pow
 http://localhost:9200
 
 2. Install required libraries:
-bash
+```bash```
 pip install pandas kaggle tqdm sentence-transformers elasticsearch
 Run the script:
 
