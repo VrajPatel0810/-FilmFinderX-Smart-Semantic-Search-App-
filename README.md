@@ -30,7 +30,7 @@ This project introduces a **semantic movie search engine** that combines the pow
 - A user-friendly app built with Streamlit to enter search queries and display movie matches.
 - Includes custom background and style enhancements.
 
----
+
 
 ## 💻 Execution Instructions
 
@@ -39,31 +39,20 @@ This project introduces a **semantic movie search engine** that combines the pow
 1. Make sure Elasticsearch is running locally on:
 http://localhost:9200
 
-go
-Copy
-Edit
-
 2. Install required libraries:
 ```bash
 pip install pandas kaggle tqdm sentence-transformers elasticsearch
 Run the script:
 
-bash
-Copy
-Edit
 python script.py
 This will download the dataset, generate embeddings, and index them to Elasticsearch.
 
-Note: Replace the default Elasticsearch username and password with your own credentials in the code.
+Note: Replace the default Elasticsearch **username=elastic** and **password=QniIJli3-hIugmvXGNtS** with you own credentials in the code.
 
 ▶️ app.py (Streamlit App)
 Ensure script.py has been run and the index is created.
 
 Launch the app:
-
-bash
-Copy
-Edit
 streamlit run app.py
 Enter a genre or keyword like "thrilling sci-fi" or "family comedy" to receive matching movies.
 
