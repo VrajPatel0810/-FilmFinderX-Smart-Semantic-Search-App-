@@ -74,5 +74,6 @@ Kaggle API – Dataset access
 ## 🙋‍♂️ Author
 Made by Vraj Patel
 
-
+## Output
+![Screenshot 2025-06-27 212307](https://github.com/user-attachments/assets/b69ea90f-a28c-4454-b159-368dc51f4e6e)
 
