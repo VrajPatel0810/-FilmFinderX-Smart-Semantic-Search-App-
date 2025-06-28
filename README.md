@@ -34,6 +34,42 @@ This project introduces a **semantic movie search engine** that combines the pow
 
 ## 💻 Execution Instructions
 
-## ▶️ `script.py` (Indexing and Embedding)
+## ▶️ script.py (Indexing and Embedding)
+1. Make sure Elasticsearch is running locally on:
+http://localhost:9200
+
+2. Install required libraries:
+```bash
+pip install pandas kaggle tqdm sentence-transformers elasticsearch
+Run the script:
+
+python script.py
+This will download the dataset, generate embeddings, and index them to Elasticsearch.
+
+Note: Replace the default Elasticsearch **username=elastic** and **password=QniIJli3-hIugmvXGNtS** with you own credentials in the code.
+
+## ▶️ app.py (Streamlit App)
+Ensure script.py has been run and the index is created.
+
+Launch the app:
+streamlit run app.py
+Enter a genre or keyword like "thrilling sci-fi" or "family comedy" to receive matching movies.
+
+🛠️ Tech Stack
+Python – Core programming
+
+Elasticsearch – Semantic indexing and retrieval
+
+Streamlit – Web app interface
+
+Sentence Transformers – Embedding generation
+
+Kaggle API – Dataset access
+
+📄 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Made by Vraj
 
 
