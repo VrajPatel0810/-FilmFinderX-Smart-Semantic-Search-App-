@@ -34,7 +34,7 @@ This project introduces a **semantic movie search engine** that combines the pow
 
 ## 💻 Execution Instructions
 
-### ▶️ `script.py` (Indexing and Embedding)
+## ▶️ `script.py` (Indexing and Embedding)
 
 1. Make sure Elasticsearch is running locally on:
 http://localhost:9200
@@ -49,7 +49,7 @@ This will download the dataset, generate embeddings, and index them to Elasticse
 
 Note: Replace the default Elasticsearch **username=elastic** and **password=QniIJli3-hIugmvXGNtS** with you own credentials in the code.
 
-▶️ app.py (Streamlit App)
+## ▶️ app.py (Streamlit App)
 Ensure script.py has been run and the index is created.
 
 Launch the app:
