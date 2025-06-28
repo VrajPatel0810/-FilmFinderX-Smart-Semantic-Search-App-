@@ -39,7 +39,7 @@ This project introduces a **semantic movie search engine** that combines the pow
 http://localhost:9200
 
 2. Install required libraries:
-```bash
+bash
 pip install pandas kaggle tqdm sentence-transformers elasticsearch
 Run the script:
 
@@ -55,7 +55,7 @@ Launch the app:
 streamlit run app.py
 Enter a genre or keyword like "thrilling sci-fi" or "family comedy" to receive matching movies.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Python – Core programming
 
 Elasticsearch – Semantic indexing and retrieval
@@ -66,10 +66,8 @@ Sentence Transformers – Embedding generation
 
 Kaggle API – Dataset access
 
-📄 License
-This project is licensed under the MIT License.
 
-🙋‍♂️ Author
-Made by Vraj
+## 🙋‍♂️ Author
+Made by Vraj Patel
 
 
