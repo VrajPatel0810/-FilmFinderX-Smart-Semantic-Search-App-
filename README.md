@@ -42,7 +42,7 @@ http://localhost:9200
 ```bash
 pip install pandas kaggle tqdm sentence-transformers elasticsearch
 ```
-Run the script:
+3. Run the script:
 ```
 python script.py
 ```
